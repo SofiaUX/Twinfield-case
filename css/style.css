@@ -194,6 +194,11 @@ header {
   margin-right: 70px;
 }
 
+.center-button{
+  text-align: center;
+  padding-bottom:40px;
+}
+
 .responsive-image{
   max-width: 100%;
 }
