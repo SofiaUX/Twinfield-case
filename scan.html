@@ -18,32 +18,30 @@
             <div class="wrapper">
                 <div class="topnav" id="topnav">
                     <a href="index.html"><img src="img/logo-twinfield.png" class="logo" alt="Twinfield logo"></a>
-
-                    <a class="active" href="scan.html"><i class="fas fa-camera"></i> Scan invoice</a>
+                      <a class="active" href="scan.html"><i class="fas fa-camera"></i> Scan invoice</a>
                     <a href="#"><i class="fas fa-comments"></i> Chat Bookkeeper</a>
                     <a href="#"><i class="fas fa-bell"></i> Notification</a>
                     <div class="dropdown">
                         <button class="dropbtn dropdown-toggle" id="profileDropdown" data-toggle="dropdown">Ben's Profile</button>
-                        <div class="dropdown-menu" aria-labelledby="profileDropdown">
-                            <a href="#">Dashboards</a>
+                        <div class="dropdown-content" aria-labelledby="profileDropdown">
+                            <a href="dashboard.html">Dashboards</a>
                             <a href="#">Settings</a>
                             <a href="#">Log out</a>
                         </div>
                     </div>
-                    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="toggleNavbar()">&#9776;</a>
+                  <a href="javascript:void(0);" style="font-size:30px;" class="icon" onclick="toggleNavbar(this)">&#9776;</a>
                 </div>
 
             </div>
         </header>
-
 
         <main>
 
 
             <div class="wrapper">
                 <h1>Quickly share invoices & keep up-to-date your accountant</h1>
-                <h2> Create and collect your documents with Twinfield services</h2>
-                <p>Share your documents via cloud with one of the following: Qr-code, Photo, Upload. </p>
+                <h2> Collect your documents with our services</h2>
+                <p>Share with one of the following your invoices via <span style="color:000;font-weight:bold">Cloud:</span></p>
 
                 <div class="row">
                     <div class="column">
@@ -92,7 +90,7 @@
                             <img src="img/photo-invoices.svg" class="card-img-top" alt="Photo your invoice">
                             <div class="card-body">
                                 <h5 class="card-title">Invoices/receipts without QR-code?</h5>
-                                <p class="card-text">Your invoices do not include a QR-barcode then you can take a photo and send it via the cloud to your accountant.</p>
+                                <p class="card-text">Your invoices do not include a QR-barcode then you can take a photo and send it via Cloud to your accountant.</p>
 
                                 <!-- Button trigger modal -->
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
@@ -110,7 +108,7 @@
                                                 </button>
                                             </div>
                                             <div class="modal-body">
-                                                By selecting, Save your document will be shared via Cloud to your Accountant. Go to your Dashboards to view your uploads.
+                                                By selecting, Save your uploaded document will be shared via Cloud to your Accountant. Go to your Dashboards to view your uploads.
                                             </div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Scan more</button>
